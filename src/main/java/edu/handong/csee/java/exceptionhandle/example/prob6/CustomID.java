@@ -27,7 +27,7 @@ public class CustomID extends Exception {//this is a public class named CustomID
 			this.age = age;//set age to argument
 			System.out.println("Age is valid!");//display "Age is valid!" on the monitor
 			System.out.println("Age : " + this.age);//display age of character on the monitor.
-			state++;
+			state++;//add 1 to state
 		}
 	}
 	public void set_race(String race) throws Exception{//this is a public method named set_races that has a String as parameter, and throws Exception 
