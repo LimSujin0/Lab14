@@ -2,7 +2,7 @@ package edu.handong.csee.java.exceptionhandle.example.prob2;//this is a package 
 import java.util.*;//import class in java.util package
 
 public class In_exception {//this is a public class named In_exception
-	private int x=0, y=0;//this is a private integer variable named x, y/
+	private int x=0, y=0;//this is a private integer variable named x, y
 	public void error_dat() {//this is a public void type method named error_dat
 		try {//try
 			Scanner keyboard = new Scanner(System.in);//instantiate keyboard of Scanner type

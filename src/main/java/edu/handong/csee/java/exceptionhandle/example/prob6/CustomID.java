@@ -43,8 +43,7 @@ public class CustomID extends Exception {//this is a public class named CustomID
 		throw new Exception("Human! try again!");//throw Exception passing "Human! try again!".
 	}
 	
-	public int getState() {
-		return state;
+	public int getState() {//this is a public method named getState that returns ineteger type
+		return state;//return state
 	}
-
 }
