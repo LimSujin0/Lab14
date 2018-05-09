@@ -10,7 +10,7 @@ public class Cus_main {//this is a public class named Cus_main
 		int age;//this is a integer type variable named age
 		boolean repeat = true;//this is boolean type variable named repeat, and set this variable to true
 		while(repeat) {//while repeat it true, execute below block
-			try {
+			try {//try
 				if(obj.getState()==0) {//execute getState in obj, and return value is 0, execute below block
 					System.out.print("Enter your name : ");//display "Enter your name : " on the monitor
 					name = keyboard.nextLine();//set name to String from user
